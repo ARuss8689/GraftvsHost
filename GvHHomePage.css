@@ -1,0 +1,71 @@
+body {
+	background-color: #6699CC;
+}
+
+.mainmenu li {
+	display: inline;
+	font-size: 30px;
+	padding-right: 5%;
+	font-family:'Cabin', sans-serif;
+	font-weight: bold;
+	
+
+}
+
+.mainmenu {
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color: #143E47;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	padding: 1.5% 0 1.5% 100px;
+}
+a {
+	text-decoration: none;
+}
+
+#mainimage {
+	width: 200px;
+	margin: 120px auto 70px auto;
+	display: block;
+	border-radius: 110px;
+	border: 5px solid green;
+}
+
+h1 {
+	text-align: center;
+	font-size: 300%;
+	font-family: 'Poiret One', cursive;
+}
+
+.paraone {
+	width: 420px;
+	float: left;
+	padding-left: 30px;
+}
+
+.paratwo {
+	width: 420px;
+	float: left;
+	padding-left: 20px;
+
+}
+
+#science {
+	padding-left: 30px;
+}
+
+footer {
+	clear: both;
+	padding-left: 20px;
+}
+
+h2 {
+	padding-left: 60px;
+}
+
+.about {
+	padding-bottom: 50px;
+}
