@@ -1,7 +1,33 @@
 body {
-	background-color: #6699CC;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #00618F 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #00618F 100%);
+
+	/* Opera */ 
+	background-image: -o-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #00618F 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center top, 0, center top, 553, color-stop(0, #FFFFFF), color-stop(1, #00618F));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #00618F 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(ellipse farthest-corner at center top, #FFFFFF 0%, #00618F 100%);
+
+	font-family:'Dosis', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #f2c507;
+}
+a:hover {
+	color: #f2a107;
+}
+/* nav menu*/
 .mainmenu li {
 	display: inline;
 	font-size: 30px;
@@ -14,26 +40,24 @@ body {
 
 .mainmenu {
 	margin: 0 auto;
-	border: 1px solid black;
-	background-color: #143E47;
+	background-color: #00618F;
 	position: fixed;
 	left: 0px;
 	top: 0px;
 	right: 0px;
 	padding: 1.5% 0 1.5% 100px;
 }
-a {
-	text-decoration: none;
-}
 
 #mainimage {
-	width: 200px;
+	width: 220px;
+	height: 220px;
 	margin: 120px auto 70px auto;
 	display: block;
-	border-radius: 110px;
-	border: 5px solid green;
+	border-radius: 120px;
+	border: 9px solid #0969d4;
 }
 
+/*main content*/
 h1 {
 	text-align: center;
 	font-size: 300%;
@@ -55,6 +79,7 @@ h1 {
 
 #science {
 	padding-left: 30px;
+	width: 300px;
 }
 
 footer {
@@ -68,4 +93,6 @@ h2 {
 
 .about {
 	padding-bottom: 50px;
+	background-color: #dae7ec;
+	/*opacity: .5;*/
 }
