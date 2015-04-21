@@ -5,11 +5,12 @@
 		<title>
 			Follicular Graft vs Host Official Support Site
 		</title>
-		<link rel="stylesheet" type="text/css" href="GvHHomePage.css">
+		<link rel="stylesheet" type="text/css" href="GvHFAQ.css">
 		<!-- custom fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Dosis:500,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 	</head>
 <body>
 	<nav>
@@ -32,39 +33,133 @@
 		</ul>
 	</nav>
 
-	<img src="http://fillmurray.com/200/200">
 	<h1>
-		Graft vs Host Official Support Page
+		Frequently Asked Questions
 	</h1>	
 
-	<div class="about">
-		<h2>
-			About the Disease
-		</h2>
-		
-		<p>
-			Some text
+	<div class="subtext">
+		Click a Question to See the Answer!
+	</div>
 
-		</p>		
+		<ol class="questions">
+			
+			<li class="q1">
+				Can I get FGvHD?
+				<br>
+				<br>
+				<br>
+				<br>
 
-	</div>	
+			</li>	
 
-	<footer>
-		<h3>
-			Disclaimer
-		</h3>
-		<p>
-			More text
-		</p>		
-	</footer>
+			<li class="q2">
+				If I develop FGvHD, is it true that removing the transplanted hair will completely cure me, and allow me to live a normal, healthy life?
+			</li>	
 
+			<li class="q3">
+				My grandfather is 95 and has trouble walking without a cane- do you think he may have FGvHD?
+			</li>	
+
+			<li class="q4">
+				Is it possible for hair transplanted to your butt to develop FGvHD?
+			</li>
+
+			<li class="q5">
+				Can my teeth develop FGvHD?
+			</li>	
+
+			<li class="q6">
+				How can I avoid contracting FGvHD?
+				<br>
+				<br>
+				<br>
+				<br>
+			</li>	
+
+			<li class="q7">
+				Can my cat get FGvHD?
+			</li>	
+		</ol>
+
+
+		<ul class="answers">
+			
+			<li class="a1">
+				Studies have shown that over 99% of FGvHD sufferers received a hair transplant within 90 days prior to developing symptoms. If you have recently undergone elective hair transplant surgery to your scalp or other areas, you are at an increased risk of contracting FGvHD, and should consult a health professional if you experience any of the aforementioned symptoms. If you have not recently received hair-plugs...you're probably fine.
+			</li>	
+
+			<li class="a2">
+				I suppose, if you can call that living.
+				<br>
+				<br>
+				<br>
+			</li>	
+
+			<li class="a3">
+				No. He's just old.
+				<br>
+				<br>
+				<br>
+			</li>	
+
+			<li class="a4">
+				While the nature of this question lends itself to many other questions, in short, yes, FGvHD can take hold anywhere transplanted hair exists. 
+
+			</li>
+
+			<li class="a5">
+				No. Reread any full sentence on this site to find out why.
+			</li>		
+
+			<li class="a6">
+				To decrease your chances of contracting FGvHD, make sure your hair transplants are done in a sanitary environment, and by a reputable source. If your surgeon's office is a converted warehouse, the medical supplies are kept in a burlap sack, or your surgeon appears severely intoxicated, these might be some red flags. Additionally, try to avoid the newest trend of DIY hair-plug transplants.
+			</li>	
+
+			<li class="a7">
+				Please refer to Question #4.
+			</li>	
+		</ul>
+
+		<script>
+			$(document).ready(function(){
+				$(".mainmenu").hide(function(){
+			 		$(".mainmenu").slideDown(1000)}
+				);
+				$(".answers").hide();
+				$(".a1").hide();
+				$(".a2").hide();
+				$(".a3").hide();
+				$(".a4").hide();
+				$(".a5").hide();
+				$(".a6").hide();
+
+				$(".q1").click(function(){
+					$(".answers").show(),
+					$(".a1").show(1000);
+
+				});
+				$(".q2").click(function(){
+					$(".answers").show(),
+					$(".a2").show(1000)
+				});
+				$(".q3").click(function(){
+					$(".answers").show(),
+					$(".a3").show(1000)
+				});
+				$(".q4").click(function(){
+					$(".answers").show(),
+					$(".a4").show(1000)
+				});
+				$(".q5").click(function(){
+					$(".answers").show(),
+					$(".a5").show(1000)
+				});
+				$(".q6").click(function(){
+					$(".answers").show(),
+					$(".a6").show(1000)
+				});
+			});	
+		</script>
 </body>
-
-
-
-
-
-
-
 
 </html>

@@ -5,11 +5,12 @@
 		<title>
 			Follicular Graft vs Host Official Support Site
 		</title>
-		<link rel="stylesheet" type="text/css" href="GvHHomePage.css">
+		<link rel="stylesheet" type="text/css" href="GvHMS.css">
 		<!-- custom fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Dosis:500,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	</head>
 <body>
 	<nav>
@@ -32,32 +33,59 @@
 		</ul>
 	</nav>
 
-	<img src="http://fillmurray.com/200/200">
+	
 	<h1>
-		Graft vs Host Official Support Page
+		Our Mission
 	</h1>	
 
 	<div class="about">
 		<h2>
-			About the Disease
+			<span style="font-size: 120%"> Our mantra is simple: </span> Everyone deserves a great head of hair. Nothing should deny anyone that right. Not genetics, not environment, and especially not FGvHD. With your help, we aim to eliminate FGvHD once and for all. Scientists are closing in on a cure for FGvHD, which would allow those afflicted to alleviate their symptoms without having to be separated from their transplanted hair. While reversing the transplant procedure will completely cure FGvHD, many sufferers see this as truly a worst case scenario, and would often prefer to live with the debilitating symptoms than resort to this harsh line of treatment. With just a minor donation, you can help us achieve our goal of beating FGvHD, and allowing those affected to live normal, fully-haired lives.
 		</h2>
-		
-		<p>
-			Some text
-
-		</p>		
-
 	</div>	
+	<br>
 
-	<footer>
+	<div class="mission">
+		We know losing your hair is hard enough. No one should have to lose it twice.
+	</div>
+		
+	
+		
+		<div class="badrob">
+		<img src="http://www.stealingshare.com/wp-content/uploads/2014/10/rob-lowe-directv-hed-2014.jpg">
+
 		<h3>
-			Disclaimer
+			Don't be like this Rob Lowe (Click Here!)
 		</h3>
-		<p>
-			More text
-		</p>		
-	</footer>
+		</div>
 
+		<div class="goodrob">
+		<img src="http://santa.marketmenot.com/directv-crazy-hairy-rob-lowe-commercial/directv-crazy-hairy-rob-lowe-ss-05.jpg">
+
+		<h3>
+			Be like this Rob Lowe!
+		</h3>
+		</div>
+	
+
+	<script>
+		$(document).ready(function(){
+		$(".mainmenu").hide(function(){
+			 $(".mainmenu").slideDown(1000)}
+			);
+		$(".goodrob").hide();
+
+		var betterrob = function(){
+				$(".goodrob").fadeIn(2000)
+			}
+		$(".badrob").click(function(){
+			$(".badrob").fadeOut(1000, betterrob)
+			});
+		
+
+			
+		});
+	</script>	
 </body>
 
 

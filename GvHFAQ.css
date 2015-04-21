@@ -34,10 +34,7 @@ a:hover {
 	padding-right: 5%;
 	font-family:'Cabin', sans-serif;
 	font-weight: bold;
-	
-
 }
-
 .mainmenu {
 	margin: 0 auto;
 	background-color: #00618F;
@@ -47,58 +44,42 @@ a:hover {
 	right: 0px;
 	padding: 1.5% 0 1.5% 100px;
 }
-
-#mainimage {
-	width: 220px;
-	height: 220px;
-	margin: 120px auto 50px auto;
-	display: block;
-	border-radius: 120px;
-	border: 9px solid #0969d4;
-
-}
-
-/*main content*/
 h1 {
 	text-align: center;
 	font-size: 300%;
-	font-family: 'Poiret One', cursive;
-}
-
-.paraone {
+	font-family: 'Questrial';
+	border: 4px #f2a107 dotted;
 	width: 420px;
-	float: left;
-	padding-left: 30px;
+	margin: 100px auto 10px auto;
+	border-radius: 20px;
+	background-color: #377c7b;
+	color: #e7cc58;
 }
-
-.paratwo {
-	width: 420px;
-	float: left;
-	padding-left: 20px;
-
+.subtext {
+	text-align: center;
+	margin-bottom: 50px;
+	color: red;
+	font-style: italic;
 }
-
-#science {
-	padding-left: 30px;
+.questions {
+	float: left;
 	width: 300px;
-}
-
-footer {
-	clear: both;
-	padding-left: 20px;
-	border: 4px dashed black;
-	color: white;
+	background-color: #dbc87c;
 	border-radius: 20px;
+	padding-top: 20px;
+	border: 3px solid #2ea170;
 }
-
-h2 {
-	padding-left: 60px;
-}
-
-.about {
-	padding-bottom: 50px;
-	padding-top: 3px;
-	background-color: #dae7ec;
+.answers {
+	float: right;
+	width: 700px;
+	background-color: #dbc87c;
 	border-radius: 20px;
-	/*opacity: .5;*/
+	padding-top: 20px;
+	border: 3px solid #2ea170;
+}
+.questions li {
+	padding-bottom: 20px;
+}
+.answers li {
+	padding-bottom: 20px;
 }

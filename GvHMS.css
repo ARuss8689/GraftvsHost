@@ -34,10 +34,7 @@ a:hover {
 	padding-right: 5%;
 	font-family:'Cabin', sans-serif;
 	font-weight: bold;
-	
-
 }
-
 .mainmenu {
 	margin: 0 auto;
 	background-color: #00618F;
@@ -47,58 +44,46 @@ a:hover {
 	right: 0px;
 	padding: 1.5% 0 1.5% 100px;
 }
-
-#mainimage {
-	width: 220px;
-	height: 220px;
-	margin: 120px auto 50px auto;
-	display: block;
-	border-radius: 120px;
-	border: 9px solid #0969d4;
-
-}
-
-/*main content*/
 h1 {
+	margin: 100px auto 25px auto;
 	text-align: center;
 	font-size: 300%;
-	font-family: 'Poiret One', cursive;
-}
-
-.paraone {
-	width: 420px;
-	float: left;
-	padding-left: 30px;
-}
-
-.paratwo {
-	width: 420px;
-	float: left;
-	padding-left: 20px;
-
-}
-
-#science {
-	padding-left: 30px;
+	font-family: cursive;
+	background-color: #377c7b;
+	color: #e7cc58;
 	width: 300px;
-}
-
-footer {
-	clear: both;
-	padding-left: 20px;
-	border: 4px dashed black;
-	color: white;
 	border-radius: 20px;
-}
 
-h2 {
-	padding-left: 60px;
 }
-
 .about {
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	font-size: 80%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border: 4px solid #d0c3c3;
+	background-color: #dbb2b2;
+	font-weight: bold;
+	border-radius: 15px;
+}
+.mission {
+	margin: 0 auto;
+	width: 1000px;
+	font-size: 150%;
+	font-family: impact;
+	text-align: center;
 	padding-bottom: 50px;
-	padding-top: 3px;
-	background-color: #dae7ec;
-	border-radius: 20px;
-	/*opacity: .5;*/
+	padding-top: 30px;
+}
+.badrob {
+	height: 500px;
+	width: 650px;
+	margin: 0 auto;
+	text-align: center;
+}
+.goodrob {
+	height: 500px;
+	width: 650px;
+	margin: 0 auto;
+	text-align: center;
 }
