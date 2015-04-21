@@ -1,0 +1,107 @@
+body {
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #c1ffc1 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #4CD2BB 100%);
+
+	/* Opera */ 
+	background-image: -o-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #4CD2BB 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center top, 0, center top, 553, color-stop(0, #FFFFFF), color-stop(1, #4CD2BB));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #FFFFFF 0%, #4CD2BB 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(ellipse farthest-corner at center top, #FFFFFF 0%, #4CD2BB 100%);
+
+	font-family:'Dosis', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #f2c507;
+}
+a:hover {
+	color: #f2a107;
+}
+/* nav menu*/
+.mainmenu li {
+	display: inline;
+	font-size: 30px;
+	padding-right: 5%;
+	font-family:'Cabin', sans-serif;
+	font-weight: bold;
+	
+
+}
+
+.mainmenu {
+	margin: 0 auto;
+	background-color: #165ec1;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	padding: 1.5% 0 1.5% 100px;
+}
+
+#mainimage {
+	width: 220px;
+	height: 220px;
+	margin: 120px auto 70px auto;
+	display: block;
+	border-radius: 120px;
+	border: 9px solid #0969d4;
+}
+
+/*main content*/
+h1 {
+	text-align: center;
+	font-size: 300%;
+	font-family: 'Poiret One', cursive;
+}
+
+p {
+	font-size: 110%;
+}
+
+.member img {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 1%;
+	padding: 0px;
+	border: 5px solid #20fa48;
+	border-radius: 150px;
+}
+
+/*ways-to-giv styles*/
+
+#hair {
+	width: 30%;
+	background-color: blue;
+	float: left; 
+}
+
+#hair img {
+	width: 90%;
+	position: relative;
+}
+
+#care {
+	width: 30%;
+	float: left;
+	background-color: red;
+}
+
+#support {
+	width: 30%;
+	float: left;
+	background-color: green;
+}
+footer {
+	clear: both;
+}
